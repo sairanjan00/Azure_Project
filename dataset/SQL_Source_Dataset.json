@@ -1,0 +1,12 @@
+{
+	"name": "SQL_Source_Dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Kakudi DB Sql Source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
