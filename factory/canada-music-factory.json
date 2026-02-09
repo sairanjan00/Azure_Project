@@ -1,0 +1,9 @@
+{
+	"name": "canada-music-factory",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6f59bcd4-8ce7-49c1-864d-de2d14e64ead",
+		"tenantId": "91839db2-c075-48fb-a5b0-2baf2dea5a60"
+	}
+}
