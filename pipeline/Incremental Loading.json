@@ -69,7 +69,7 @@
 						"parameters": {
 							"container": "raw",
 							"folder": {
-								"value": "@concat(pipeline().parameters.table, '/', 'Files')",
+								"value": "@concat(pipeline().parameters.table,'_cdc', '/', 'Files')",
 								"type": "Expression"
 							},
 							"file": {
