@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "canada-music-factory"
+		},
+		"DataLake Storage link Parameterized_accountKey": {
+			"value": ""
+		},
+		"Kakudi DB Sql Source_password": {
+			"value": ""
+		},
+		"DataLake Storage link Parameterized_properties_typeProperties_url": {
+			"value": "https://canada7.dfs.core.windows.net/"
+		},
+		"Kakudi DB Sql Source_properties_typeProperties_server": {
+			"value": "canada-music-server.database.windows.net"
+		},
+		"Kakudi DB Sql Source_properties_typeProperties_database": {
+			"value": "kakudi_db"
+		},
+		"Kakudi DB Sql Source_properties_typeProperties_userName": {
+			"value": "jhatia"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
