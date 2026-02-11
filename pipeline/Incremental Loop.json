@@ -315,35 +315,6 @@
 									}
 								]
 							}
-						},
-						{
-							"name": "Status Email",
-							"type": "WebActivity",
-							"dependsOn": [
-								{
-									"activity": "Check Empty Files",
-									"dependencyConditions": [
-										"Succeeded",
-										"Failed"
-									]
-								}
-							],
-							"policy": {
-								"timeout": "0.12:00:00",
-								"retry": 0,
-								"retryIntervalInSeconds": 30,
-								"secureOutput": false,
-								"secureInput": false
-							},
-							"userProperties": [],
-							"typeProperties": {
-								"method": "POST",
-								"url": "https://prod-18.canadacentral.logic.azure.com:443/workflows/d783653834ea4097ad0149cf77d44d03/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=IHEsz6ttQxps449kk8zZYpqvZFRsOYssq5OkxnrHqwk",
-								"body": {
-									"value": "{\n    \"pipeline_name\" : \"@{pipeline().Pipeline}\",\n    \"pipeline_runId\" : \"@{pipeline().RunId}\"\n}",
-									"type": "Expression"
-								}
-							}
 						}
 					]
 				}
