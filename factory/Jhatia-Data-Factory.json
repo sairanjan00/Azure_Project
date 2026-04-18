@@ -1,0 +1,9 @@
+{
+	"name": "Jhatia-Data-Factory",
+	"location": "japaneast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3010abf6-d6f0-4be5-a8ed-1c75a9203489",
+		"tenantId": "08d1f40d-5683-47a0-8c7b-4597491fac65"
+	}
+}

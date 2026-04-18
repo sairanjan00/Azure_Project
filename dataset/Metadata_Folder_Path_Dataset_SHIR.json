@@ -1,0 +1,22 @@
+{
+	"name": "Metadata_Folder_Path_Dataset_SHIR",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "shir_onprem_linked",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

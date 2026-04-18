@@ -1,0 +1,6 @@
+{
+	"name": "japan-self-hosted-integration",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
