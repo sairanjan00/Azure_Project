@@ -120,7 +120,7 @@
 									"referenceName": "JSON_ADLS_Source_DataSet",
 									"type": "DatasetReference",
 									"parameters": {
-										"container": "raw",
+										"container": "bronze",
 										"folders": {
 											"value": "@concat(item().table,'_cdc/Date_Inputs')",
 											"type": "Expression"
