@@ -79,7 +79,7 @@
 									"referenceName": "Parquet_Dynamic",
 									"type": "DatasetReference",
 									"parameters": {
-										"container": "raw",
+										"container": "bronze",
 										"folder": {
 											"value": "@concat(item().table,'_cdc/Files')",
 											"type": "Expression"
